@@ -1,0 +1,105 @@
+.testBox{
+	background-color: #d5d9de;
+	border: 1px solid #a9acb0;
+	padding: 10px 20px;
+}
+
+.logo{
+	width: auto;
+	height: 150px;
+}
+
+.banner{
+	height: 150px;
+	background-image: url('../images/shutterstock_116403520.jpg');
+	/* Linking umage url in css */
+	background-size: cover;
+	background-position: center -100px; /* offset to shift view of picture downwards */
+}
+
+.callOuts{
+	border: 1px solid #d7d8da;
+}
+
+.callOuts img{
+	height: auto;
+	width: 100px; 
+}
+
+/*Bottom Area*/
+.bottomArea{
+	background-color: #424243;
+	height: 400px;
+	color: #fff;
+	font-size: .8rem;
+}
+
+.bottomArea p{
+	font-size: .7rem;
+}
+
+.bottomArea h5{
+	font-weight: 800;
+	font-size: 16px;
+}
+
+/* Default only accept 0, 25, 50, 75 and 100, so you can define the % space here: */
+
+.w-60{
+	width: 60%!important;
+}
+
+.h-30{
+	width: 30%!important;
+}
+
+.w-20{
+	width: 20%!important;
+}
+
+.w-10{
+	width: 10%!important;
+}
+
+/*Responsive code*/
+
+@media (min-width: 576px) {
+	.banner{
+		height: 200px;
+	}
+	.bottomArea{
+		height: 250px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.banner{
+		height: 300px;
+	}
+	.bottomArea{
+		height: 200px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.banner{
+		height: 400px;
+	}
+	.bottomArea{
+		height: 200px;
+	}
+	.w-lg-20{
+		width: 20%!important;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+.testRow{
+	height: 200px;
+}
